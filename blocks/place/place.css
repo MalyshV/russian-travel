@@ -4,7 +4,6 @@
   font-family: 'Inter', Arial, sans-serif;
   display: grid;
   grid-template-columns: 460px auto;
-  /*grid-template-columns: repeat(auto-fit, minmax(320px, max-content)); Может так??*/
   grid-template-rows: auto;
   row-gap: 48px;
   column-gap: 40px;
@@ -28,8 +27,6 @@
     column-gap: 28px;
   }
 }
-
-
 
 @media (max-width:677px) {
   .place {
