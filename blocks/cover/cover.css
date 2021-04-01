@@ -1,5 +1,8 @@
 .cover {
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top: 92px;
   padding-bottom: 92px;
   font-family: 'Inter', Arial, sans-serif;
