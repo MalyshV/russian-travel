@@ -6,7 +6,7 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-  color: #FFFFFF;
+  color: inherit;
 }
 
 @media (max-width: 1023px) {

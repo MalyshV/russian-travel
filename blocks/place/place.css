@@ -7,6 +7,7 @@
   grid-template-rows: auto;
   row-gap: 48px;
   column-gap: 40px;
+  color: #FFFFFF;
 }
 
 .place:last-of-type {
