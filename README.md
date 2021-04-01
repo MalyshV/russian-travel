@@ -22,4 +22,4 @@
 
 -----
 
-* Ссылка на GitHub Pages [ https://malyshv.github.io/russian-travel/]
+* Ссылка на GitHub Pages [https://malyshv.github.io/russian-travel/]

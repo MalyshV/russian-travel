@@ -8,3 +8,16 @@
   font-family: 'Inter', Arial, sans-serif;
   color: #FFFFFF;
 }
+
+@media (max-width: 767px) {
+  .cover {
+    max-width: 767px;
+  }
+}
+
+@media (max-width: 375px) {
+  .cover {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+}
