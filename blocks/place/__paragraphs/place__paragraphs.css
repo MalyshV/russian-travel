@@ -1,0 +1,15 @@
+.place__paragraphs {
+  display: grid;
+  align-self: start;
+  row-gap: 26px;
+  margin: 0;
+}
+
+@media (max-width:767px) {
+  .place__paragraphs {
+    font-size: 32px;
+    line-height: 35px;
+    width: 288px;
+    justify-self: center;
+  }
+}

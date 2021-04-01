@@ -1,0 +1,49 @@
+.cover__link {
+  text-decoration: none;
+  display: block;
+  padding: 245px calc((100% - 560px)/2);
+  background-image: url(../../../images/__background.png);
+  background-size: 100% 100%;
+  color: inherit;
+  position: relative;
+  z-index: 1;
+}
+
+.cover__link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.cover__link:hover::after {
+  opacity: 0.8;
+  transition: opacity .5s ease-in-out;
+}
+
+@media (max-width: 1279px) {
+  .cover__link {
+    padding: 195px 232px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .cover__link {
+    padding: 115px 104px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cover__link {
+    padding: 32px 16px 33px;
+  }
+}
+
+
+
+

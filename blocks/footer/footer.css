@@ -1,0 +1,24 @@
+.footer {
+  padding: 0 48px;
+  font-family: 'Inter', Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 112%;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+@media (max-width:1023px) {
+  .footer {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer {
+    padding: 0 16px;
+    flex-direction: column;
+  }
+}

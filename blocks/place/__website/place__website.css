@@ -1,0 +1,13 @@
+.place__website {
+  margin: 0;
+  display: grid;
+  align-self: end;
+  row-gap: 12px;
+}
+
+@media (max-width:767px) {
+  .place__website {
+    width: 288px;
+    justify-self: center;
+  }
+}
