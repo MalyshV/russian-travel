@@ -9,11 +9,13 @@
 @media (max-width:767px) {
   .photo-grid__item {
     width: 290px;
+    height: 290px;
   }
 }
 
 @media (max-width:361px) {
   .photo-grid__item {
     width: 288px;
+    height: 288px;
   }
 }
