@@ -1,8 +1,7 @@
 .intro {
-  margin: 0;
   padding-top: 92px;
   padding-bottom: 92px;
-  max-width: 690px;
+  max-width: 984px;
   font-family: 'Inter', Arial, sans-serif;
   color: #FFFFFF;
 }
@@ -11,6 +10,7 @@
   .intro {
     max-width: 720px;
     padding-top: 88px;
+    margin: 0;
   }
 }
 
