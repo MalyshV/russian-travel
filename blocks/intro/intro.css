@@ -13,7 +13,6 @@
     margin: 0;
   }
 }
-
 @media (max-width: 767px){
   .intro {
     max-width: none;
